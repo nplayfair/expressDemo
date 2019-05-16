@@ -34,6 +34,7 @@ router.post('/', (req, res) => {
 
     // Send back response
     res.json(members);
+    // res.redirect('/');
 });
 
 // Update memeber
